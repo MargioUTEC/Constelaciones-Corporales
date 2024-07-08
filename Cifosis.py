@@ -62,6 +62,5 @@ def update(frame):
     
     return [bg_stars] + stars
 
-# Create animation
 ani = FuncAnimation(fig, update, frames=200, interval=180, blit=True)
 plt.show()

@@ -7,13 +7,10 @@ coordinates = [
     (60, 20), (66, -10), (60, -40)
 ]
 
-# Convert coordinates to numpy arrays for easier handling
 coords = np.array(coordinates)
 
-# Define star indices for special stars
 star_indices = [0, 2]
 
-# Define colors
 star_color = '#FFFF00'
 star_edge_color = '#FFA500'
 line_color = '#FFD700'
